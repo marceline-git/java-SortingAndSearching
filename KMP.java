@@ -12,7 +12,7 @@ public class KMP {
                 p1++;
                 p2++;
             } else {
-                p2 = pArray[p2-1];
+                if(p2 != 0) p2 = pArray[p2-1];
                 if (text.charAt(p1) == pattern.charAt(p2)) {
                     p1++;
                     p2++;
