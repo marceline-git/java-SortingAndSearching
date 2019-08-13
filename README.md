@@ -8,5 +8,8 @@ run tests.
 Knuth–Morris–Pratt Pattern Matching.  
 (KMP substring search)
 
-## BubbleSort
+## BubbleSort.java
 Implementation of BubbleSort.
+
+## BinarySearch.java
+Implementation of BinarySearch (Recursive).
